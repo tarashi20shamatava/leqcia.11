@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1482px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .descr textarea {
+    /* width: 500px; ამის width მინდა 100% ზე ეკრანის მიმართ */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mediareg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mailphonelocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mailphonelocation div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .emaill h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: Helvetica;
+    margin-top: 75px;
+    margin-left: 8px;
+    color: #4e4d54;
+  }
+  .emaill p {
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 17.25px;
+    margin-left: 8px;
+    text-indent: -58px;
+    margin-top: 5px;
+    color: #99999a;
+  }
+
+  .emaill p {
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 17.25px;
+    margin-left: 8px;
+    text-indent: -58px;
+    margin-top: 5px;
+    color: #99999a;
+  }
+}
+@media only screen and (max-width: 1375px) {
+  .images1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .images1 img {
+    width: 700px;
+    height: 500px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container h4 {
+    color: #5863e3;
+    font-weight: 700;
+    font-family: Helvetica;
+    font-size: 17px;
+    line-height: 19.55;
+    margin-left: 50px;
+  }
+  .container h1 {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+    width: 100px;
+    line-height: 56.35px;
+    /* margin-bottom: 50px; */
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 1092px) {
+  .left_side {
+    margin-bottom: 40px;
+  }
+  .flex2 {
+    flex-direction: column;
+  }
+  .footer{
+    padding: 65px;
+  }
+}
+
+@media only screen and (max-width: 825px) {
+  .images1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .images1 img {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .right-side{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
